@@ -1,12 +1,12 @@
-// Array of project objects
+ // Array of project objects
 const projects = [
   {
-    title: 'Project 1: Data Analysis',
-    description: 'A research project on data analysis techniques using Python and statistical models.',
+    title: 'Project 1: Cell Tower Optimization Problem',
+    description: 'A research project on optimization algorithms when applied to cell tower placement.',
     link: '#'
   },
   {
-    title: 'Project 2: Machine Learning',
+    title: 'Project 2: A Visual Analysis of Global Carbon Emissions',
     description: 'Exploring machine learning algorithms to predict stock prices based on historical data.',
     link: '#'
   },
