@@ -8,7 +8,7 @@ const projects = [
   {
     title: 'Project 2: A Visual Analysis of Global Carbon Emissions',
     description: 'Exploring machine learning algorithms to predict stock prices based on historical data.',
-    link: '#'
+    link: 'https://github.com/pattonnelson/pattonnelson.github.io/blob/main/Visual%20Analysis%20on%20Global%20Carbon%20Emissions.pdf'
   },
   {
     title: 'Project 3: Natural Language Processing',
