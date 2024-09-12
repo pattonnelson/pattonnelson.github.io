@@ -1,23 +1,48 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
-
-<meta charset="UTF-8">
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>My GitHub Page</title>
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Research Projects</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
+  <header>
+    <h1>My Research Projects</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-<h1>Welcome to My GitHub Page</h1>
+  <section id="home" class="section">
+    <h2>Welcome to My Research Portfolio</h2>
+    <p>This website showcases my personal research projects in various fields. Feel free to browse through the projects and reach out if you have any questions.</p>
+  </section>
 
-<p>This is my personal website hosted on GitHub Pages!</p>
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <div id="project-list"></div>
+  </section>
 
+  <section id="contact" class="section">
+    <h2>Contact Me</h2>
+    <p>If you would like to collaborate or learn more about any of the projects, please reach out:</p>
+    <form id="contact-form">
+      <input type="text" id="name" name="name" placeholder="Your Name" required>
+      <input type="email" id="email" name="email" placeholder="Your Email" required>
+      <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2024 My Research Projects. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
-
 </html>
