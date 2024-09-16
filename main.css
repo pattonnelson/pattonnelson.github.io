@@ -1,3 +1,4 @@
+/* General body styling */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -6,6 +7,7 @@ body {
   color: #333;
 }
 
+/* Header styling */
 header {
   background-color: #333;
   color: white;
@@ -13,7 +15,7 @@ header {
   text-align: center;
 }
 
-/* Social links section */
+/* Social links styling */
 .social-links {
   margin-top: 10px;
 }
@@ -29,38 +31,27 @@ header {
   color: #ddd;
 }
 
+/* Section styling - applied consistently */
 .section {
   padding: 20px;
   margin: 20px auto;
-  max-width: 800px;
+  max-width: 800px; /* Consistent width for all sections */
   background-color: white;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* General styles for project section */
-#projects {
-  margin: 20px auto;
-  max-width: 800px; /* Allow the section to span the full width */
-  padding: 20px;
-}
-
+/* Project section will inherit the .section styles */
 #project-list {
   width: 100%;
-  padding: 0; /* Remove any padding that might create boxed effect */
+  padding: 0;
   margin: 0;
 }
 
-/* Each project spans the full width of the container */
+/* Each project spans the full width of its container */
 .project {
   width: 100%;
-  padding: 20px auto;
+  padding: 20px 0;
   border-bottom: 1px solid #ddd;
-}
-
-/* Remove any shadow or box styling */
-.section {
-  box-shadow: none; /* Ensure no shadow is applied */
-  background-color: transparent; /* Remove any background color */
 }
 
 /* Project title styling */
@@ -80,7 +71,7 @@ header {
   border-bottom: none;
 }
 
-
+/* Footer styling */
 footer {
   text-align: center;
   background-color: #333;
@@ -91,6 +82,7 @@ footer {
   width: 100%;
 }
 
+/* Form input and textarea styling */
 form input, form textarea {
   display: block;
   width: 100%;
@@ -100,6 +92,7 @@ form input, form textarea {
   border-radius: 4px;
 }
 
+/* Form button styling */
 form button {
   background-color: #333;
   color: white;
@@ -107,6 +100,7 @@ form button {
   padding: 10px 20px;
   cursor: pointer;
 }
+
 
 form button:hover {
   background-color: #555;
