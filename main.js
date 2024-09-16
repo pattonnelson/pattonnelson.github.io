@@ -13,7 +13,7 @@ const projects = [
   {
     title: 'Project 3: Model Classification on Early Modern vs. Modern English via Poetry',
     description: 'Understanding how machines interpret and respond to human language using NLP techniques.',
-    link: 'https://github.com/pattonnelson/pattonnelson.github.io/blob/main/FinalProject_PattonNelson.ipynb'
+    link: 'https://github.com/pattonnelson/pattonnelson.github.io/blob/main/FinalProject_PattonNelson%20(1).ipynb'
   }
 ];
 
