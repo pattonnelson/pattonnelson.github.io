@@ -13,25 +13,10 @@ header {
   text-align: center;
 }
 
-.social-links {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.social-links a {
-  color: white;
-  text-decoration: none;
-  margin: 0 10px;
-  font-weight: bold;
-}
-
-.social-links a:hover {
-  color: #ddd;
-}
-
 nav ul {
   list-style-type: none;
   padding: 0;
+  margin-bottom: 10px;
 }
 
 nav ul li {
@@ -43,6 +28,22 @@ nav ul li a {
   color: white;
   text-decoration: none;
   font-weight: bold;
+}
+
+/* Social links section */
+.social-links {
+  margin-top: 10px;
+}
+
+.social-links a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+.social-links a:hover {
+  color: #ddd;
 }
 
 .section {
