@@ -40,7 +40,7 @@ header {
 /* General styles for project section */
 #projects {
   margin: 20px auto;
-  max-width: 100%; /* Allow the section to span the full width */
+  max-width: 800px; /* Allow the section to span the full width */
   padding: 20px;
 }
 
@@ -53,7 +53,7 @@ header {
 /* Each project spans the full width of the container */
 .project {
   width: 100%;
-  padding: 20px 0;
+  padding: 20px auto;
   border-bottom: 1px solid #ddd;
 }
 
