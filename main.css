@@ -13,23 +13,6 @@ header {
   text-align: center;
 }
 
-nav ul {
-  list-style-type: none;
-  padding: 0;
-  margin-bottom: 10px;
-}
-
-nav ul li {
-  display: inline;
-  margin: 0 15px;
-}
-
-nav ul li a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-}
-
 /* Social links section */
 .social-links {
   margin-top: 10px;
