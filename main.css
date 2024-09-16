@@ -15,6 +15,13 @@ header {
   text-align: center;
 }
 
+/* Section title (h2) styling */
+h2 {
+  font-size: 2rem; /* Increase the size of the section title */
+  color: #333;
+  margin-bottom: 20px;
+}
+
 /* Social links styling */
 .social-links {
   margin-top: 10px;
@@ -53,10 +60,11 @@ header {
   padding: 20px 0;
 }
 
-/* Project title styling */
+/* Project title (h3) styling */
 .project h3 {
-  font-size: 1.5rem;
+  font-size: 1.25rem; /* Decrease the size of the project titles */
   color: #333;
+  margin-bottom: 10px;
 }
 
 /* Project description styling */
