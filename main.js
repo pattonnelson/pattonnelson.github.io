@@ -3,7 +3,7 @@ const projects = [
   {
     title: 'Project 1: Cell Tower Optimization Problem',
     description: 'A research project on optimization algorithms when applied to cell tower placement.',
-    link: '#'
+    link: 'https://github.com/pattonnelson/pattonnelson.github.io/blob/main/CellTowerProblem.ipynb'
   },
   {
     title: 'Project 2: A Visual Analysis of Global Carbon Emissions',
