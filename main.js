@@ -11,9 +11,9 @@ const projects = [
     link: 'https://github.com/pattonnelson/pattonnelson.github.io/blob/main/Visual%20Analysis%20on%20Global%20Carbon%20Emissions.pdf'
   },
   {
-    title: 'Project 3: Natural Language Processing',
+    title: 'Project 3: Model Classification on Early Modern vs. Modern English via Poetry',
     description: 'Understanding how machines interpret and respond to human language using NLP techniques.',
-    link: '#'
+    link: 'https://github.com/pattonnelson/pattonnelson.github.io/blob/main/FinalProject_PattonNelson.ipynb'
   }
 ];
 
